@@ -1,0 +1,107 @@
+# Build and target directories
+target/
+*/target/
+*/**/target/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.settings/
+.project
+.classpath
+.metadata
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Logs
+*.log
+logs/
+*/logs/
+*/**/logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Database files (sensitive)
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.staging
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Application specific
+database.properties.local
+application.properties.local
+config.properties.local
+
+# Tomcat specific
+work/
+temp/
+*/work/
+*/temp/
+*/**/work/
+*/**/temp/
+
+# WAR files (if you want to exclude them)
+*.war
+
+# Node modules (if using frontend build tools)
+node_modules/
+npm-debug.log*
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Compiled binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Package files
+*.jar
+*.tar.gz
+*.zip
+
+# Maven wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
+# Gradle
+.gradle/
+build/
+
+# Sensitive configuration files
+src/main/resources/database.properties
+src/main/resources/application-*.properties
+
+# Keep these configuration templates
+!src/main/resources/database.properties.template
+!src/main/resources/application.properties.template
